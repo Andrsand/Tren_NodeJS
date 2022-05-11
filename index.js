@@ -1,15 +1,7 @@
 import fs from 'fs';
 
-fs.readFile('readme1.txt', 'utf8', function(err, data1) {
-	if (!err) {
-		fs.readFile('readme2.txt', 'utf8', function(err, data2) {
-			if (!err) {
-				console.log(data1 * data2);
-			} else {
-				console.log('ошибка чтения файла readme2');
-			}
-		});
-	} else {
-		console.log('ошибка чтения файла readme1');
-	}
+fs.promises.readFile('readme.txt','utf8').then(data => {
+	console.log(data);
+}).catch(err =>{
+	console.log('ошибка');
 });
