@@ -1,0 +1,8 @@
+Узнать, что такое CommonJS и ES6 модули в JavaScript. 
+
+библиотеки для NodeJs:
+1. npm install underscore 
+   import _ from 'underscore'
+
+2. lodash
+
