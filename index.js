@@ -5,3 +5,4 @@ fs.promises.readFile('readme.txt','utf8').then(data => {
 }).catch(err =>{
 	console.log('ошибка');
 });
+
