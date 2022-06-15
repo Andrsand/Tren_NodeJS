@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{% get title %}</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				{% get element 'header' %}
+			</header>
+			<main>
+				{% get content %}
+			</main>
+			<aside>
+				{% get element 'aside' %}
+			</aside>
+			<footer>
+				{% get element 'footer' %}
+			</footer>
+		</div>
+	</body>
+</html>
