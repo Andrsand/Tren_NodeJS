@@ -8,5 +8,5 @@ import __dirname from './__dirname.js';
 // 	console.log('ошибка');
 // });
 
-//console.log(__dirname); // определение папки в которой мы работаем
+//console.log(__dirname); // definition of the folder in which we work
 
